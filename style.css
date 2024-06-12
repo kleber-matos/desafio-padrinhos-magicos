@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Header */
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div {
+  width: 30vw;
+  height: 4vh;
+  max-width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header button {
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+header .acessar {
+  width: 50%;
+  border: none;
+  background-color: red;
+}
+
+header .entrar {
+  width: 30%;
+  border: solid 1px white;
+}
+
+header img {
+  width: 20vw;
+  max-width: 300px;
+  margin-left: 10px;
+}
