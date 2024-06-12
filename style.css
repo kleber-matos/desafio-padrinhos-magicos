@@ -45,3 +45,32 @@ header img {
   max-width: 300px;
   margin-left: 10px;
 }
+
+/* Main */
+main {
+  border: solid;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  border: solid red 1px;
+}
+
+.episodio {
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.episodio h1 {
+  font-size: 2em;
+}
+
+.episodio img {
+  width: 20vw;
+  max-width: 150px;
+}
